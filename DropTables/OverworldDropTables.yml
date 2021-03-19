@@ -16,9 +16,9 @@ BonusLevelItems: 0.2to0.4
   - BONE 0-2 0.5
   - ARROW 0-3 0.3
 creeper_droptable:
-BonusLevelItems: 0.2to0.4
+#BonusLevelItems: 0.2to0.4
   Drops:
-  - Gunpowder 1 1
+  - Gunpowder 10 1
 spider_droptable:
 BonusLevelItems: 0.2to0.4
   Drops:
