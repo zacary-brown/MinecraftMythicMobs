@@ -11,15 +11,45 @@
 
 # --------------- OVERWORLD ----------------------
 
+ ZOMBIE:
+  Display: '&4Zombie &6Lvl &7- &a <mob.level>'
+  Health: 20
+  Damage: 5
+  Drops:
+  - exp 1-30 1
+  LevelModifiers:
+    Health: 2.0
+    Damage: 0.5
+    
+ ZOMBIE_VILLAGER:
+  Display: '&4 &6LvlZombie Villager - <mob.level>'
+  Health: 20
+  Armor: 2
+  Damage: 4
+  Drops:
+  - exp 1-30 1
+  LevelModifiers:
+    Health: 2.0
+    Armor: 0.2
+    Damage: 0.4
+    
+ SKELETON:
+  Display: '&4Skeleton &6Lvl &7- &a <mob.level>'
+  Health: 20
+  Damage: 3
+  Drops:
+  - xp_droptable
+  - skeleton_droptable
+  LevelModifiers:
+    Health: 2.0
+    Damage: 0.5
+
  CREEPER:
   Display: '&4Creeper &6Lvl &7- &a <mob.level>'
   Health: 20
   Drops:
   - xp_droptable
-  - zombie_droptable
-  DropsPerLevel:
-  - exp 3 0.5
-  - Gunpowder 1 0.5
+  - creeper_droptable
   LevelModifiers:
     Health: 2.0
 
@@ -29,8 +59,6 @@
   Damage: 3
   Drops:
   - exp 1-30 1
-  DropsPerLevel:
-  - exp 3 0.5
   LevelModifiers:
     Health: 0.8
     Damage: 0.3
@@ -328,48 +356,3 @@
   LevelModifiers:
     Health: 4.0
     Damage: 1.2
-    
- ZOMBIE:
-  Display: '&4Zombie &6Lvl &7- &a <mob.level>'
-  Health: 20
-  Damage: 5
-  #Drops:
-  #- exp 1-30 1
-  #DropsPerLevel:
-  #- exp 3 0.5
-  #- ROTTEN_FLESH 1 0.3
-  #- IRON_INGOT 1 0.5
-  #- CARROT 1 0.4
-  #- POTATO 1 0.4
-  LevelModifiers:
-    Health: 2.0
-    Damage: 0.5
-    
- ZOMBIE_VILLAGER:
-  Display: '&4 &6LvlZombie Villager - <mob.level>'
-  Health: 20
-  Armor: 2
-  Damage: 4
-  Drops:
-  - exp 1-30 1
-  DropsPerLevel:
-  - exp 3 0.5
-  - ROTTEN_FLESH 1 0.3
-  - IRON_INGOT 1 0.5
-  - CARROT 1 0.4
-  - POTATO 1 0.4
-  LevelModifiers:
-    Health: 2.0
-    Armor: 0.2
-    Damage: 0.4
-    
- SKELETON:
-  Display: '&4Skeleton &6Lvl &7- &a <mob.level>'
-  Health: 20
-  Damage: 3
-  #Drops:
-  #- xp_droptable
-  #- skeleton_droptable
-  LevelModifiers:
-    Health: 2.0
-    Damage: 0.5
