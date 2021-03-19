@@ -5,6 +5,8 @@
 SPIDER:
   Display: '&4Spider &6Lvl &7- &a <mob.level>'
   Health: 12
+  Options:
+    PreventOtherDrops: true
   Drops:
   - xp_droptable
   - spider_droptable
