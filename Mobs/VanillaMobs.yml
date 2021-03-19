@@ -18,7 +18,7 @@
   Drops:
   - xp_droptable
   LevelModifiers:
-    Health: 2.0
+    Health: 2
     Damage: 0.5
     
  ZOMBIE_VILLAGER:
