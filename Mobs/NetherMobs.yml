@@ -1,0 +1,111 @@
+# ------------------------------------------------------------------- NORMAL ---------------------------------------------------------------------------------------------
+
+# ---------------------- VANILLA ---------------------- 
+
+BLAZE:
+  Display: '&4Blaze &6Lvl &7- &a <mob.level>'
+  Health: 20
+  Damage: 9
+  Drops:
+  - xp_droptable
+  DropsPerLevel:
+  - exp 3 0.5
+  - BLAZE_ROD 1 0.5
+  LevelModifiers:
+    Health: 2.0
+    Damage: 0.9
+    
+ HOGLIN:
+  Display: '&4Hoglin &6Lvl &7- &a <mob.level>'
+  Health: 40
+  Damage: 3
+  Drops:
+  - xp_droptable
+  DropsPerLevel:
+  - exp 3 0.5
+  - RAW_PORKCHOP 2 0.5
+  - LEATHER 1 0.3
+  LevelModifiers:
+    Health: 4.0
+    Damage: 0.3
+    
+ MAGMA_CUBE:
+  Display: '&4Magma Cube &6Lvl &7- &a <mob.level>'
+  Health: 16
+  Armor: 12
+  Damage: 6
+  Drops:
+  - xp_droptable
+  DropsPerLevel:
+  - exp 3 0.5
+  - MAGMA_CREAM 1 0.5
+  LevelModifiers:
+    Health: 1.6
+    Damage: 0.6
+    
+ ZOGLIN:
+  Display: '&4Zoglin &6Lvl &7- &a <mob.level>'
+  Health: 40
+  Damage: 12
+  Drops:
+  - xp_droptable
+  DropsPerLevel:
+  - exp 3 0.5
+  - ROTTEN_FLESH 1 0.5
+  LevelModifiers:
+    Health: 4.0
+    Damage: 1.2
+  
+# ---------------------- CUSTOM -----------------------
+
+# ------------------------------------------------------------------- ELITE ---------------------------------------------------------------------------------------------
+
+# ---------------------- VANILLA ---------------------- 
+
+ RAVAGER:
+  Display: '&4Ravager &6Lvl &7- &a <mob.level>'
+  Health: 100
+  Damage: 18
+  Drops:
+  - xp_droptable
+  DropsPerLevel:
+  - exp 3 0.5
+  - RAW_PORKCHOP 1 0.5
+  LevelModifiers:
+    Health: 10
+    Damage: 1.8
+
+ WITHER_SKELETON:
+  Display: '&4 &6Lvl &7- &a <mob.level>'
+  Health: 20
+  Damage: 12
+  Drops:
+  - xp_droptable
+  DropsPerLevel:
+  - exp 3 0.5
+  - BONE 1 0.5
+  LevelModifiers:
+    Health: 2.0
+    Damage: 1.2
+
+ GHAST:
+  Display: '&4Ghast &6Lvl &7- &a <mob.level>'
+  Health: 10
+  Damage: 25
+  Drops:
+  - xp_droptable
+  DropsPerLevel:
+  - exp 3 0.5
+  - GHAST_TEAR 1 0.5
+  - GUNPOWDER 1 0.3
+  LevelModifiers:
+    Health: 1.0
+    Damage: 2.5
+  
+# ---------------------- CUSTOM -----------------------
+
+# ------------------------------------------------------------------- BOSS ----------------------------------------------------------------------------------------------
+
+# ---------------------- VANILLA ---------------------- 
+  
+# ---------------------- CUSTOM -----------------------

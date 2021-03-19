@@ -1,0 +1,59 @@
+# ------------------------------------------------------------------- NORMAL ---------------------------------------------------------------------------------------------
+
+# ---------------------- VANILLA ---------------------- 
+
+zombie_droptable:
+BonusLevelItems: 0.2to0.4
+  Drops:
+  - ROTTEN_FLESH 0-2 1
+  - IRON_INGOT 1 0.1
+  - CARROT 1 0.2
+  - POTATO 1 0.2
+  - GUNPOWDER 1 1
+skeleton_droptable:
+BonusLevelItems: 0.2to0.4
+  Drops:
+  - BONE 0-2 0.5
+  - ARROW 0-3 0.3
+creeper_droptable:
+BonusLevelItems: 0.2to0.4
+  Drops:
+  - Gunpowder 1 1
+spider_droptable:
+BonusLevelItems: 0.2to0.4
+  Drops:
+  - ROTTEN_FLESH 0-2 1
+  - IRON_INGOT 1 0.1
+  - CARROT 1 0.2
+  - POTATO 1 0.2
+  
+# ---------------------- CUSTOM -----------------------
+
+xp_droptable:
+  BonusLevelItems: 0.5to2
+  Drops:
+  - exp 10-15 1
+elite_xp_droptable:
+  BonusLevelItems: 0.5to2
+  Conditions:
+  - playerwithin 10
+  Drops:
+  - exp 25-30 1
+boss_xp_droptable:
+  BonusLevelItems: 0.5to2
+  Condition:
+  - playerwithin 30
+  Drops:
+  - exp 75-100 1
+
+# ------------------------------------------------------------------- ELITE ---------------------------------------------------------------------------------------------
+
+# ---------------------- VANILLA ---------------------- 
+  
+# ---------------------- CUSTOM -----------------------
+
+# ------------------------------------------------------------------- BOSS ----------------------------------------------------------------------------------------------
+
+# ---------------------- VANILLA ---------------------- 
+  
+# ---------------------- CUSTOM -----------------------
