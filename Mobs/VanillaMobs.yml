@@ -22,7 +22,7 @@
     Damage: 0.5
     
  ZOMBIE_VILLAGER:
-  Display: '&4 &6LvlZombie Villager - <mob.level>'
+  Display: '&4 Zombie Villager &6Lvl &7- &a <mob.level>'
   Health: 20
   Armor: 2
   Damage: 4
