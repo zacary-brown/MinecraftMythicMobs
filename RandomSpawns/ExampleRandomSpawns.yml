@@ -2,17 +2,6 @@
 # http://www.mythicmobs.net
 #  
 
-RandomVanillaMobsLand:
-  MobType: MyZombie
-  Worlds: HEllow World
-  Action: REPLACE
-  Chance: 1
-  Priority: 100
-  Conditions:
-  #- lightlevel{l=1to7} true
-  - inblock{block=LAVA,WATER} false
-  - heightbelow{h=100} true
-
 RandomSkeletonKing:
   MobType: SkeletonKing
   Worlds: world
