@@ -3,49 +3,52 @@
 # ---------------------- VANILLA ---------------------- 
 
 zombie_droptable:
-  TotalItems: 10
-  BonusLevelItems: 0.1to0.3
+  TotalItems: 100
+  BonusLevelItems: 0to0.2
   Drops:
-  - ROTTEN_FLESH 0-2 9
-  - IRON_INGOT 1 0.4
-  - CARROT 1 0.3
-  - POTATO 1 0.3
+  - ROTTEN_FLESH 0-2 90
+  - IRON_INGOT 1 4
+  - CARROT 1 3
+  - POTATO 1 3
 
 skeleton_droptable:
-  TotalItems: 10
-  BonusLevelItems: 0.1to0.3
+  TotalItems: 100
+  BonusLevelItems: 0to0.2
   Drops:
-  - BONE 0-2 7
-  - ARROW 0-3 3
+  - BONE 0-2 70
+  - ARROW 0-3 30
   
 creeper_droptable:
-  TotalItems: 10
-  BonusLevelItems: 0.1to0.3
+  TotalItems: 100
+  BonusLevelItems: 0to0.2
   Drops:
-  - Gunpowder 0-2 10
+  - Gunpowder 0-1 100
 
 spider_droptable:
-  TotalItems: 10
-  BonusLevelItems: 0.1to0.3
+  TotalItems: 100
+  BonusLevelItems: 0to0.2
   Drops:
-  - string 1 7
-  - spider_eye 1 3
+  - string 0-1 70
+  - spider_eye 1 30
   
 # ---------------------- CUSTOM -----------------------
 
 xp_droptable:
-  TotalItems: 10
-  BonusLevelItems: 0.2to0.5
+  TotalItems: 100
+  BonusLevelItems: 0to0.2
   Drops:
-  - exp 5-10 10
+  - exp 5 100
+
 elite_xp_droptable:
-  BonusLevelItems: 0.2to0.5
+  TotalItems: 100
+  BonusLevelItems: 0to0.2
   Conditions:
   - playerwithin 10
   Drops:
-  - exp 25-30 1
+  - exp 15 100
+
 boss_xp_droptable:
-  BonusLevelItems: 0.5to2
+  BonusLevelItems: 0to0.2
   Condition:
   - playerwithin 30
   Drops:
@@ -54,6 +57,25 @@ boss_xp_droptable:
 # ------------------------------------------------------------------- ELITE ---------------------------------------------------------------------------------------------
 
 # ---------------------- VANILLA ---------------------- 
+
+witch_droptable:
+  TotalItems: 100
+  BonusLevelItems: 0to0.2
+  Drops:
+  - glass_bottle 1 12.5
+  - glowstone_dust 1 12.5
+  - gunpowder 1 12.5
+  - redstone 1 12.5
+  - spider_eye 1 12.5
+  - sugar 1 12.5
+  - stick 1 25
+
+enderman_droptable:
+  TotalItems: 100
+  BonusLevelItems: 0to0.2
+  Drops:
+  - ender_pearl 0-1 100
+
   
 # ---------------------- CUSTOM -----------------------
 
