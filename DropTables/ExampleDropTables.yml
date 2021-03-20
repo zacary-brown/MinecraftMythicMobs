@@ -3,6 +3,8 @@
 #  
 
 SkeletonKingDrops:
+  TotalItems: 1
+  BonusLevelItems: 5
   Conditions:
   - playerwithin 40
   Drops:
