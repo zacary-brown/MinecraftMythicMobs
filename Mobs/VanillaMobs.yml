@@ -61,6 +61,17 @@
   LevelModifiers:
     Health: 2.0
 
+ ENDERMAN:
+  Display: '&4Enderman &6Lvl &7- &a <mob.level>'
+  Health: 20
+  Options:
+    PreventOtherDrops: true
+  Drops:
+  - elite_xp_droptable
+  - enderman_droptable
+  LevelModifiers:
+    Health: 2.0
+
  ENDERMITE:
   Display: '&4Endermite &6Lvl &7- &a <mob.level>'
   Health: 8
@@ -92,11 +103,7 @@
   Damage: 4
   Drops:
   - xp_droptable
-  DropsPerLevel:
-  - exp 3 0.5
-  - ROTTEN_FLESH 1 0.5
-  - IRON_INGOT 1 0.3
-  - POTATO 1 0.1
+  - zombie_droptable
   LevelModifiers:
     Health: 2.0
     Damage: 0.2
@@ -196,12 +203,8 @@
   Display: '&4Witch &6Lvl &7- &a <mob.level>'
   Health: 20
   Drops:
-  - xp_droptable
-  DropsPerLevel:
-  - exp 3 0.5
-  - NETHER_WART 1 0.2
-  - GLOWSTONE 1 0.3
-  - STICK 1 0.5
+  - elite_xp_droptable
+  - witch_droptable
   LevelModifiers:
     Health: 2.0
 
